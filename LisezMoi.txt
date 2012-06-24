@@ -1,0 +1,44 @@
+Language plugin - Pour PyroCMS 2.x
+--------------------------------------------------------------------------------
+Language switcher permet d'afficher un menu utilisateur pour le choix de la
+langue de votre site web.
+Composer de plusieurs modes, il est muni d'un affichage text ou image.
+
+
+Comment l'installer?
+--------------------------------------------------------------------------------
+Ce paquet contient :
+     language.php
+     flags.zip
+
+
+Envoyer language.php dans le repertoire plugins de votre site.
+(like : /addons/default/plugins)
+
+Apres avoir extrait l'archive flags.zip, il faut envoye le repertoire flags
+nouvellement cree dans le repertoire /uploads à la racine de votre site, de
+facon a obtenir cette arborescence:
+	/uploads/flags/
+	/uploads/flags/png
+	/uploads/flags/gif
+	/uploads/flags/readme.txt
+
+
+
+Comment ca marche?
+--------------------------------------------------------------------------------
+{{ language:swicher }}
+
+Le plugin a deux arguments optionnels:
+	 mode='txt | gif | png'
+	 display='inline'
+
+{{ language:swicher mode="txt" display="inline" }}
+
+
+Vous pouvez aussi adapter simplement votre css avec le block `#language_switcher`.
+
+
+Visit www.cavaencoreparlerdebits.fr
+--------------------------------------------------------------------------------
+Antoine Benevaut < antoine@cavaencoreparlerdebits.fr >		
