@@ -1,0 +1,11 @@
+#language_switcher-inline li
+{
+	margin-right:2px;
+	display:inline;
+	list-style:none;
+}
+
+#language_switcher li
+{
+	list-style:none;
+}
