@@ -4,8 +4,24 @@
 	display:inline;
 	list-style:none;
 }
-
 #language_switcher li
 {
 	list-style:none;
+}
+#language_switcher.dropdown
+{
+	left: 0px;
+    top: 0px;
+    width: 100px;
+}
+#language_switcher.dropdown img
+{
+	float: left;
+    margin: 5px;
+}
+#language_switcher.dropdown select
+{
+	width: 60%;
+	float: left;
+    margin: 1px;
 }
