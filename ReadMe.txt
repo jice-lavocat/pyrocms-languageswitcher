@@ -34,6 +34,17 @@ Switcher have two optionals parameters:
 Integrate plugin with options inside your webdesign or webpages.
 You can also, integrate CSS for `#language_switcher`.
 
+Next of use languageSwitcher, you have to use the current
+language variable in PyroCMS (PHP or JS) to set your content in
+correct language.
+
+Here, a solution to show/hide content directly in your content.
+
+{{ if lang:code == "en" }}
+	English text!
+{{ elseif lang:code == "fr" }}
+	Texte francais!
+{{endif}}
 
 
 Visit www.cavaencoreparlerdebits.fr
