@@ -25,7 +25,7 @@ Get installer/flags directory to /uploads/ to have this directory tree:
 
 How it's work?
 --------------------------------------------------------------------------------
-{{ language:swicher }}
+{{ language:switcher }}
 
 Switcher have two optionals parameters:
 	 mode='txt | gif | png'
